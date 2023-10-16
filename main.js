@@ -14,6 +14,7 @@ app.get('/', (request, response) => {
   response.send('TASK APP')
 })
 
+console.log(process.argv[2]);
 
 app.use(taskRoutes)
 
