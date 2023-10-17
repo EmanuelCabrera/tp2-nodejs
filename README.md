@@ -22,7 +22,7 @@ Ruta GET "/tareas/:id" devuelve una tarea en especifico, mediante su ID
 ```
 localhost:4000/tareas/1
 ```
-Ruta GET "/tareas/filter/:id" esta ruta se encarga de recuperar las tareas mediante el filtro de si estan completadas o no, 1 para completadas 0 para no completadas
+Ruta GET "/tareas/filter/:completada" esta ruta se encarga de recuperar las tareas mediante el filtro de si estan completadas o no, 1 para completadas 0 para no completadas
 ```
 localhost:4000/tareas/filter/1
 
